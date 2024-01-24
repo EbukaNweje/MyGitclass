@@ -1,5 +1,4 @@
 const mongoose = require ('mongoose')
-const { StringDecoder } = require('string_decoder')
 
 const classModel = new mongoose.Schema({
     fullName:{
