@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(230, 176, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signBody{
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.signUp p{
+    font-size: 25px;
+    /* font-weight: bold; */
+    color: white;
+    padding: 30px;
+    font-weight: 600;
+}
+form{
+    width: 90%;
+    height: 70%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inputs{
+    width: 90%;
+    height: 90%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.inputs input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 600;
+    outline: none; 
+}
+.inputs p{
+    cursor: pointer;
+}
+.inputs button{
+    width: 30%;
+    padding: 15px 30px;  
+    background-color: rgb(214, 36, 143);
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    font-weight: 750;
+    margin-top: 10px;
+    cursor: pointer;
+}
